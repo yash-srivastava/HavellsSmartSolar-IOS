@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BLEDeviceTableViewCell" rowHeight="70" id="KGk-i7-Jjw" customClass="BLEDeviceTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lamp.png" translatesAutoresizingMaskIntoConstraints="NO" id="EJd-HG-nac">
+                        <rect key="frame" x="8" y="20" width="30" height="30"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="MXu-3M-W2r">
+                                <variation key="heightClass=regular" constant="50"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstAttribute="width" secondItem="EJd-HG-nac" secondAttribute="height" multiplier="1:1" id="uL3-8l-9Yp">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="MXu-3M-W2r"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lamp 1" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgD-bl-IXW">
+                        <rect key="frame" x="51" y="20" width="107" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="0xM-dW-rPs">
+                                <variation key="heightClass=regular-widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstAttribute="height" constant="30" id="Lri-j1-gch"/>
+                            <constraint firstAttribute="width" secondItem="RgD-bl-IXW" secondAttribute="height" multiplier="107:30" id="xEj-Lv-4OW"/>
+                            <constraint firstAttribute="width" secondItem="RgD-bl-IXW" secondAttribute="height" multiplier="89:25" id="zOX-bv-P67">
+                                <variation key="heightClass=regular-widthClass=compact" constant="71.200000000000003"/>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0xM-dW-rPs"/>
+                                <exclude reference="zOX-bv-P67"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="0xM-dW-rPs"/>
+                                <exclude reference="Lri-j1-gch"/>
+                                <exclude reference="xEj-Lv-4OW"/>
+                                <include reference="zOX-bv-P67"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                        </variation>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKw-tY-JcL">
+                        <rect key="frame" x="333" y="20" width="80" height="30"/>
+                        <color key="backgroundColor" red="0.0" green="0.3803921569" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="BKw-tY-JcL" secondAttribute="height" multiplier="12:5" constant="8" id="dI5-oc-a4b">
+                                <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="Connect">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" title="Connected"/>
+                        <state key="highlighted" title="Connecting"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        </variation>
+                        <connections>
+                            <action selector="connect:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ZKs-oH-UGL"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="RgD-bl-IXW" firstAttribute="top" secondItem="EJd-HG-nac" secondAttribute="top" id="6gG-tn-ull"/>
+                    <constraint firstItem="RgD-bl-IXW" firstAttribute="leading" secondItem="EJd-HG-nac" secondAttribute="trailing" constant="13" id="73P-R6-vYq"/>
+                    <constraint firstItem="BKw-tY-JcL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="9KT-Zz-Lwo">
+                        <variation key="heightClass=regular-widthClass=compact" constant="-0.5"/>
+                    </constraint>
+                    <constraint firstItem="RgD-bl-IXW" firstAttribute="leading" secondItem="EJd-HG-nac" secondAttribute="trailing" constant="13" id="QVR-gA-R4s">
+                        <variation key="heightClass=regular-widthClass=compact" constant="14"/>
+                    </constraint>
+                    <constraint firstItem="EJd-HG-nac" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Tfv-tl-Ss2"/>
+                    <constraint firstItem="RgD-bl-IXW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="aqN-cT-0wJ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="BKw-tY-JcL" secondAttribute="trailing" constant="1" id="dde-Sf-5Cs">
+                        <variation key="heightClass=regular-widthClass=compact" constant="9"/>
+                    </constraint>
+                    <constraint firstItem="BKw-tY-JcL" firstAttribute="bottom" secondItem="EJd-HG-nac" secondAttribute="bottom" id="ed8-Bd-LDy">
+                        <variation key="heightClass=regular-widthClass=compact" constant="-1"/>
+                    </constraint>
+                    <constraint firstItem="RgD-bl-IXW" firstAttribute="bottom" secondItem="EJd-HG-nac" secondAttribute="bottom" id="fYT-jr-rNB"/>
+                    <constraint firstItem="EJd-HG-nac" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hcr-HF-cRN"/>
+                    <constraint firstItem="BKw-tY-JcL" firstAttribute="bottom" secondItem="RgD-bl-IXW" secondAttribute="bottom" id="iLh-DY-wdt">
+                        <variation key="heightClass=regular-widthClass=compact" constant="-1"/>
+                    </constraint>
+                    <constraint firstItem="BKw-tY-JcL" firstAttribute="top" secondItem="RgD-bl-IXW" secondAttribute="top" id="idL-Yg-C7O">
+                        <variation key="heightClass=regular-widthClass=compact" constant="-1"/>
+                    </constraint>
+                    <constraint firstItem="BKw-tY-JcL" firstAttribute="top" secondItem="EJd-HG-nac" secondAttribute="top" id="u7f-fB-ta5">
+                        <variation key="heightClass=regular-widthClass=compact" constant="-1"/>
+                    </constraint>
+                    <constraint firstItem="RgD-bl-IXW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="zoX-ep-0ba"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="QVR-gA-R4s"/>
+                        <exclude reference="aqN-cT-0wJ"/>
+                        <exclude reference="iLh-DY-wdt"/>
+                        <exclude reference="idL-Yg-C7O"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular">
+                    <mask key="subviews">
+                        <include reference="EJd-HG-nac"/>
+                    </mask>
+                    <mask key="constraints">
+                        <exclude reference="6gG-tn-ull"/>
+                        <exclude reference="73P-R6-vYq"/>
+                        <include reference="QVR-gA-R4s"/>
+                        <include reference="aqN-cT-0wJ"/>
+                        <exclude reference="fYT-jr-rNB"/>
+                        <exclude reference="zoX-ep-0ba"/>
+                        <include reference="iLh-DY-wdt"/>
+                        <include reference="idL-Yg-C7O"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="connectButton" destination="BKw-tY-JcL" id="Mec-5q-15v"/>
+                <outlet property="lampNameLabel" destination="RgD-bl-IXW" id="Tnc-tF-GPf"/>
+            </connections>
+            <point key="canvasLocation" x="249" y="308"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="lamp.png" width="137" height="136"/>
+    </resources>
+</document>

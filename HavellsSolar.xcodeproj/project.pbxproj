@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330E53F61D65B1F300EB0F80 /* WattViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E53F51D65B1F300EB0F80 /* WattViewController.m */; };
+		33118D8D1D51E7CD00638055 /* get started.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118D8A1D51E7CD00638055 /* get started.png */; };
+		33118D8E1D51E7CD00638055 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118D8B1D51E7CD00638055 /* password.png */; };
+		33118D8F1D51E7CD00638055 /* user name.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118D8C1D51E7CD00638055 /* user name.png */; };
+		33118D911D51E7EF00638055 /* login_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118D901D51E7EF00638055 /* login_background.png */; };
+		33118D931D51E82300638055 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118D921D51E82300638055 /* splash.png */; };
+		33118D951D51E8A700638055 /* dashboard_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118D941D51E8A700638055 /* dashboard_background.png */; };
+		33118D991D51E8DC00638055 /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118D981D51E8DC00638055 /* back_arrow.png */; };
+		33118D9C1D51E92900638055 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33118D9B1D51E92900638055 /* DashboardViewController.m */; };
+		33118D9E1D51EC4900638055 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118D9D1D51EC4900638055 /* menu.png */; };
+		33118DA21D51EEB500638055 /* battery_status.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118D9F1D51EEB500638055 /* battery_status.png */; };
+		33118DA31D51EEB500638055 /* lamp_control.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118DA01D51EEB500638055 /* lamp_control.png */; };
+		33118DA41D51EEB500638055 /* solar_panel_status.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118DA11D51EEB500638055 /* solar_panel_status.png */; };
+		33118DA61D52041200638055 /* forward_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 33118DA51D52041200638055 /* forward_arrow.png */; };
+		33236D191D5B27170055C673 /* LampControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33236D181D5B27170055C673 /* LampControlViewController.m */; };
+		33236D251D5B27EF0055C673 /* button small circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 33236D1A1D5B27EF0055C673 /* button small circle.png */; };
+		33236D261D5B27EF0055C673 /* control box.png in Resources */ = {isa = PBXBuildFile; fileRef = 33236D1B1D5B27EF0055C673 /* control box.png */; };
+		33236D271D5B27EF0055C673 /* control button.png in Resources */ = {isa = PBXBuildFile; fileRef = 33236D1C1D5B27EF0055C673 /* control button.png */; };
+		33236D281D5B27EF0055C673 /* lamp geo.png in Resources */ = {isa = PBXBuildFile; fileRef = 33236D1D1D5B27EF0055C673 /* lamp geo.png */; };
+		33236D291D5B27EF0055C673 /* lamp name.png in Resources */ = {isa = PBXBuildFile; fileRef = 33236D1E1D5B27EF0055C673 /* lamp name.png */; };
+		33236D2A1D5B27EF0055C673 /* lamp off button.png in Resources */ = {isa = PBXBuildFile; fileRef = 33236D1F1D5B27EF0055C673 /* lamp off button.png */; };
+		33236D2B1D5B27EF0055C673 /* lamp on button 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 33236D201D5B27EF0055C673 /* lamp on button 1.png */; };
+		33236D2C1D5B27EF0055C673 /* lamp on button.png in Resources */ = {isa = PBXBuildFile; fileRef = 33236D211D5B27EF0055C673 /* lamp on button.png */; };
+		33236D2D1D5B27EF0055C673 /* lamp on off.png in Resources */ = {isa = PBXBuildFile; fileRef = 33236D221D5B27EF0055C673 /* lamp on off.png */; };
+		33236D2E1D5B27EF0055C673 /* luminaire power.png in Resources */ = {isa = PBXBuildFile; fileRef = 33236D231D5B27EF0055C673 /* luminaire power.png */; };
+		33236D331D5B2EA10055C673 /* lamp_control_forword_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 33236D321D5B2EA10055C673 /* lamp_control_forword_arrow.png */; };
+		33236D351D5B431D0055C673 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33236D341D5B431D0055C673 /* CoreBluetooth.framework */; };
+		33236D371D5B43350055C673 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33236D361D5B43350055C673 /* UIKit.framework */; };
+		33236D391D5B43440055C673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33236D381D5B43440055C673 /* Foundation.framework */; };
+		332A83B51D5898C700465461 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 332A83B41D5898C700465461 /* refresh.png */; };
+		332A83B81D58A27100465461 /* LampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332A83B71D58A27100465461 /* LampViewController.m */; };
+		332A83BD1D58A60000465461 /* big circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 332A83B91D58A60000465461 /* big circle.png */; };
+		332A83BE1D58A60000465461 /* lamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 332A83BA1D58A60000465461 /* lamp.png */; };
+		332A83BF1D58A60000465461 /* search circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 332A83BB1D58A60000465461 /* search circle.png */; };
+		332A83C01D58A60000465461 /* search icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 332A83BC1D58A60000465461 /* search icon.png */; };
+		3334DE351D9D126700D95A5A /* SolarCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 3334DE341D9D126700D95A5A /* SolarCommands.m */; };
+		333819D81D6B32870023D88D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819D61D6B32870023D88D /* GoogleMaps.framework */; };
+		333819D91D6B32870023D88D /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819D71D6B32870023D88D /* GoogleMapsCore.framework */; };
+		333819DB1D6B329A0023D88D /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819DA1D6B329A0023D88D /* GoogleMapsBase.framework */; };
+		333819DD1D6B32E20023D88D /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 333819DC1D6B32E20023D88D /* GoogleMaps.bundle */; };
+		333819DF1D6B340A0023D88D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819DE1D6B340A0023D88D /* Accelerate.framework */; };
+		333819EA1D6B34560023D88D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819E01D6B34560023D88D /* CoreData.framework */; };
+		333819EB1D6B34560023D88D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819E11D6B34560023D88D /* CoreGraphics.framework */; };
+		333819EC1D6B34560023D88D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819E21D6B34560023D88D /* CoreLocation.framework */; };
+		333819ED1D6B34560023D88D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819E31D6B34560023D88D /* CoreText.framework */; };
+		333819EE1D6B34560023D88D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819E41D6B34560023D88D /* GLKit.framework */; };
+		333819EF1D6B34560023D88D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819E51D6B34560023D88D /* ImageIO.framework */; };
+		333819F01D6B34560023D88D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819E61D6B34560023D88D /* libc++.tbd */; };
+		333819F11D6B34560023D88D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819E71D6B34560023D88D /* libz.tbd */; };
+		333819F21D6B34560023D88D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819E81D6B34560023D88D /* OpenGLES.framework */; };
+		333819F31D6B34560023D88D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333819E91D6B34560023D88D /* SystemConfiguration.framework */; };
+		333819F71D6B370C0023D88D /* LampLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333819F61D6B370C0023D88D /* LampLocationViewController.m */; };
+		3372FDC61D47A492000E8313 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3372FDC51D47A492000E8313 /* iPad.storyboard */; };
+		339BB6491D5C80F80013102C /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 339BB6481D5C80F80013102C /* menu.png */; };
+		339BB64D1D5C84A30013102C /* hour circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 339BB64A1D5C84A30013102C /* hour circle.png */; };
+		339BB64E1D5C84A30013102C /* timer status button.png in Resources */ = {isa = PBXBuildFile; fileRef = 339BB64B1D5C84A30013102C /* timer status button.png */; };
+		339BB64F1D5C84A30013102C /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 339BB64C1D5C84A30013102C /* timer.png */; };
+		339BB6531D5C87B50013102C /* whiteline.png in Resources */ = {isa = PBXBuildFile; fileRef = 339BB6521D5C87B50013102C /* whiteline.png */; };
+		339BB6551D5C87EA0013102C /* blueline.png in Resources */ = {isa = PBXBuildFile; fileRef = 339BB6541D5C87EA0013102C /* blueline.png */; };
+		339BB6571D5C88850013102C /* BKGD.png in Resources */ = {isa = PBXBuildFile; fileRef = 339BB6561D5C88850013102C /* BKGD.png */; };
+		339BB6591D5C89880013102C /* LAMPCONTROLTIMER.png in Resources */ = {isa = PBXBuildFile; fileRef = 339BB6581D5C89880013102C /* LAMPCONTROLTIMER.png */; };
+		339CAB121D5CB227001EFDD8 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339CAB111D5CB227001EFDD8 /* TimerViewController.m */; };
+		339DBF4D1D59E31200F7800E /* battery capacity.png in Resources */ = {isa = PBXBuildFile; fileRef = 339DBF461D59E31200F7800E /* battery capacity.png */; };
+		339DBF4E1D59E31200F7800E /* battery status.png in Resources */ = {isa = PBXBuildFile; fileRef = 339DBF471D59E31200F7800E /* battery status.png */; };
+		339DBF4F1D59E31200F7800E /* battery voltage.png in Resources */ = {isa = PBXBuildFile; fileRef = 339DBF481D59E31200F7800E /* battery voltage.png */; };
+		339DBF501D59E31200F7800E /* charging off.png in Resources */ = {isa = PBXBuildFile; fileRef = 339DBF491D59E31200F7800E /* charging off.png */; };
+		339DBF511D59E31200F7800E /* charging on button.png in Resources */ = {isa = PBXBuildFile; fileRef = 339DBF4A1D59E31200F7800E /* charging on button.png */; };
+		339DBF521D59E31200F7800E /* charging on.png in Resources */ = {isa = PBXBuildFile; fileRef = 339DBF4B1D59E31200F7800E /* charging on.png */; };
+		33A03A6E1D66EF2200F365E0 /* BLEDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A03A6C1D66EF2200F365E0 /* BLEDeviceTableViewCell.m */; };
+		33A03A6F1D66EF2200F365E0 /* BLEDeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A03A6D1D66EF2200F365E0 /* BLEDeviceTableViewCell.xib */; };
+		33A03A771D66F07300F365E0 /* newcharging.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A03A751D66F07300F365E0 /* newcharging.png */; };
+		33A03A781D66F07300F365E0 /* newdischarging.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A03A761D66F07300F365E0 /* newdischarging.png */; };
+		33A03A7B1D66F45F00F365E0 /* SearchLampTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A03A7A1D66F45F00F365E0 /* SearchLampTableViewController.m */; };
+		33B42AE91D608BA4008CA4A7 /* CHARGING.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B42AE81D608BA4008CA4A7 /* CHARGING.png */; };
+		33B4AF551D5B028D0061BF43 /* solar power circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B4AF541D5B028D0061BF43 /* solar power circle.png */; };
+		33B4AF581D5B0AED0061BF43 /* SolarPanelStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B4AF571D5B0AED0061BF43 /* SolarPanelStatusViewController.m */; };
+		33BF6CE91DA2890800289AB6 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF6CDF1DA277CA00289AB6 /* Charts.framework */; };
+		33BF6CEA1DA2893500289AB6 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF6CDF1DA277CA00289AB6 /* Charts.framework */; };
+		33BF6CEB1DA2893500289AB6 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF6CDF1DA277CA00289AB6 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		33D87A9A1D5B4EC800A110A3 /* BluetoothDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D87A991D5B4EC800A110A3 /* BluetoothDiscovery.m */; };
+		33DD13441D5EE99500B25ACD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DD13431D5EE99500B25ACD /* QuartzCore.framework */; };
+		33DE065D1D5C63C500CE6E3B /* BatteryStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DE065C1D5C63C500CE6E3B /* BatteryStatusViewController.m */; };
+		33E7E9B81D461BCF0036200A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7E9B71D461BCF0036200A /* main.m */; };
+		33E7E9BB1D461BCF0036200A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7E9BA1D461BCF0036200A /* AppDelegate.m */; };
+		33E7E9BE1D461BCF0036200A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7E9BD1D461BCF0036200A /* ViewController.m */; };
+		33E7E9C11D461BCF0036200A /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E7E9BF1D461BCF0036200A /* iPhone.storyboard */; };
+		33E7E9C41D461BCF0036200A /* HavellsSolar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33E7E9C21D461BCF0036200A /* HavellsSolar.xcdatamodeld */; };
+		33E7E9C61D461BCF0036200A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E7E9C51D461BCF0036200A /* Assets.xcassets */; };
+		33E7E9C91D461BCF0036200A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E7E9C71D461BCF0036200A /* LaunchScreen.storyboard */; };
+		33E7E9D41D461BCF0036200A /* HavellsSolarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7E9D31D461BCF0036200A /* HavellsSolarTests.m */; };
+		33E7E9DF1D461BCF0036200A /* HavellsSolarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7E9DE1D461BCF0036200A /* HavellsSolarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33BF6CDE1DA277CA00289AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33BF6CD71DA277CA00289AB6 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F241D8110E600722320;
+			remoteInfo = Charts;
+		};
+		33BF6CE01DA277CA00289AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33BF6CD71DA277CA00289AB6 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F2E1D8110E600722320;
+			remoteInfo = ChartsTests;
+		};
+		33BF6CE21DA277CA00289AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33BF6CD71DA277CA00289AB6 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06B120D51D811E6200D14B02;
+			remoteInfo = ChartsRealm;
+		};
+		33BF6CE41DA277CA00289AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33BF6CD71DA277CA00289AB6 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06B120FF1D811F1600D14B02;
+			remoteInfo = ChartsRealmTests;
+		};
+		33BF6CE61DA277F600289AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33BF6CD71DA277CA00289AB6 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
+		};
+		33BF6CEC1DA2893500289AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33BF6CD71DA277CA00289AB6 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
+		};
+		33E7E9D01D461BCF0036200A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E7E9AB1D461BCF0036200A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E7E9B21D461BCF0036200A;
+			remoteInfo = HavellsSolar;
+		};
+		33E7E9DB1D461BCF0036200A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E7E9AB1D461BCF0036200A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E7E9B21D461BCF0036200A;
+			remoteInfo = HavellsSolar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		33F789581D6DB26B00791928 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				33BF6CEB1DA2893500289AB6 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		330E53F41D65B1F300EB0F80 /* WattViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WattViewController.h; sourceTree = "<group>"; };
+		330E53F51D65B1F300EB0F80 /* WattViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WattViewController.m; sourceTree = "<group>"; };
+		33118D8A1D51E7CD00638055 /* get started.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "get started.png"; path = "HavellsSolar/solar app/solar app/2. login/get started.png"; sourceTree = SOURCE_ROOT; };
+		33118D8B1D51E7CD00638055 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = password.png; path = "HavellsSolar/solar app/solar app/2. login/password.png"; sourceTree = SOURCE_ROOT; };
+		33118D8C1D51E7CD00638055 /* user name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user name.png"; path = "HavellsSolar/solar app/solar app/2. login/user name.png"; sourceTree = SOURCE_ROOT; };
+		33118D901D51E7EF00638055 /* login_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_background.png; path = "HavellsSolar/solar app/solar app/2. login/login_background.png"; sourceTree = SOURCE_ROOT; };
+		33118D921D51E82300638055 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = "HavellsSolar/solar app/solar app/1. splash/splash.png"; sourceTree = SOURCE_ROOT; };
+		33118D941D51E8A700638055 /* dashboard_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dashboard_background.png; path = "HavellsSolar/solar app/solar app/3. dashboard/dashboard_background.png"; sourceTree = SOURCE_ROOT; };
+		33118D981D51E8DC00638055 /* back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_arrow.png; path = "HavellsSolar/solar app/solar app/4. battery status/back_arrow.png"; sourceTree = SOURCE_ROOT; };
+		33118D9A1D51E92900638055 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		33118D9B1D51E92900638055 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		33118D9D1D51EC4900638055 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = "HavellsSolar/solar app/solar app/3. dashboard/menu.png"; sourceTree = SOURCE_ROOT; };
+		33118D9F1D51EEB500638055 /* battery_status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = battery_status.png; path = "HavellsSolar/solar app/solar app/3. dashboard/battery_status.png"; sourceTree = SOURCE_ROOT; };
+		33118DA01D51EEB500638055 /* lamp_control.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lamp_control.png; path = "HavellsSolar/solar app/solar app/3. dashboard/lamp_control.png"; sourceTree = SOURCE_ROOT; };
+		33118DA11D51EEB500638055 /* solar_panel_status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = solar_panel_status.png; path = "HavellsSolar/solar app/solar app/3. dashboard/solar_panel_status.png"; sourceTree = SOURCE_ROOT; };
+		33118DA51D52041200638055 /* forward_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forward_arrow.png; path = "HavellsSolar/solar app/solar app/3. dashboard/forward_arrow.png"; sourceTree = SOURCE_ROOT; };
+		33236D171D5B27170055C673 /* LampControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LampControlViewController.h; sourceTree = "<group>"; };
+		33236D181D5B27170055C673 /* LampControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LampControlViewController.m; sourceTree = "<group>"; };
+		33236D1A1D5B27EF0055C673 /* button small circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button small circle.png"; sourceTree = "<group>"; };
+		33236D1B1D5B27EF0055C673 /* control box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "control box.png"; sourceTree = "<group>"; };
+		33236D1C1D5B27EF0055C673 /* control button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "control button.png"; sourceTree = "<group>"; };
+		33236D1D1D5B27EF0055C673 /* lamp geo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp geo.png"; sourceTree = "<group>"; };
+		33236D1E1D5B27EF0055C673 /* lamp name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp name.png"; sourceTree = "<group>"; };
+		33236D1F1D5B27EF0055C673 /* lamp off button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp off button.png"; sourceTree = "<group>"; };
+		33236D201D5B27EF0055C673 /* lamp on button 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp on button 1.png"; sourceTree = "<group>"; };
+		33236D211D5B27EF0055C673 /* lamp on button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp on button.png"; sourceTree = "<group>"; };
+		33236D221D5B27EF0055C673 /* lamp on off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp on off.png"; sourceTree = "<group>"; };
+		33236D231D5B27EF0055C673 /* luminaire power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luminaire power.png"; sourceTree = "<group>"; };
+		33236D321D5B2EA10055C673 /* lamp_control_forword_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_control_forword_arrow.png; sourceTree = "<group>"; };
+		33236D341D5B431D0055C673 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		33236D361D5B43350055C673 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33236D381D5B43440055C673 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		332A83B41D5898C700465461 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		332A83B61D58A27100465461 /* LampViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LampViewController.h; sourceTree = "<group>"; };
+		332A83B71D58A27100465461 /* LampViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LampViewController.m; sourceTree = "<group>"; };
+		332A83B91D58A60000465461 /* big circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big circle.png"; sourceTree = "<group>"; };
+		332A83BA1D58A60000465461 /* lamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp.png; sourceTree = "<group>"; };
+		332A83BB1D58A60000465461 /* search circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search circle.png"; sourceTree = "<group>"; };
+		332A83BC1D58A60000465461 /* search icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search icon.png"; sourceTree = "<group>"; };
+		3334DE331D9D126700D95A5A /* SolarCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarCommands.h; sourceTree = "<group>"; };
+		3334DE341D9D126700D95A5A /* SolarCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolarCommands.m; sourceTree = "<group>"; };
+		333819D61D6B32870023D88D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		333819D71D6B32870023D88D /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		333819DA1D6B329A0023D88D /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		333819DC1D6B32E20023D88D /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		333819DE1D6B340A0023D88D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		333819E01D6B34560023D88D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		333819E11D6B34560023D88D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		333819E21D6B34560023D88D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		333819E31D6B34560023D88D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		333819E41D6B34560023D88D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		333819E51D6B34560023D88D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		333819E61D6B34560023D88D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		333819E71D6B34560023D88D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		333819E81D6B34560023D88D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		333819E91D6B34560023D88D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		333819F51D6B370C0023D88D /* LampLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LampLocationViewController.h; sourceTree = "<group>"; };
+		333819F61D6B370C0023D88D /* LampLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LampLocationViewController.m; sourceTree = "<group>"; };
+		3372FDC51D47A492000E8313 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		339BB6481D5C80F80013102C /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = "../../../../../Downloads/solar app/solar app/3. dashboard/menu.png"; sourceTree = "<group>"; };
+		339BB64A1D5C84A30013102C /* hour circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hour circle.png"; path = "../../../../../Downloads/solar app/solar app/8. timer/hour circle.png"; sourceTree = "<group>"; };
+		339BB64B1D5C84A30013102C /* timer status button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "timer status button.png"; path = "../../../../../Downloads/solar app/solar app/8. timer/timer status button.png"; sourceTree = "<group>"; };
+		339BB64C1D5C84A30013102C /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = timer.png; path = "../../../../../Downloads/solar app/solar app/8. timer/timer.png"; sourceTree = "<group>"; };
+		339BB6521D5C87B50013102C /* whiteline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteline.png; path = "../../../../../Downloads/PNGS/PNGS/3X/8. TIMER/whiteline.png"; sourceTree = "<group>"; };
+		339BB6541D5C87EA0013102C /* blueline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueline.png; path = "../../../../../Downloads/PNGS/PNGS/3X/8. TIMER/blueline.png"; sourceTree = "<group>"; };
+		339BB6561D5C88850013102C /* BKGD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BKGD.png; path = "../../../../../Downloads/PNGS/PNGS/3X/8. TIMER/BKGD.png"; sourceTree = "<group>"; };
+		339BB6581D5C89880013102C /* LAMPCONTROLTIMER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LAMPCONTROLTIMER.png; path = "../../../../../Downloads/PNGS/PNGS/3X/7. LAMP CONTROL/LAMPCONTROLTIMER.png"; sourceTree = "<group>"; };
+		339CAB101D5CB227001EFDD8 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		339CAB111D5CB227001EFDD8 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		339DBF461D59E31200F7800E /* battery capacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery capacity.png"; sourceTree = "<group>"; };
+		339DBF471D59E31200F7800E /* battery status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery status.png"; sourceTree = "<group>"; };
+		339DBF481D59E31200F7800E /* battery voltage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery voltage.png"; sourceTree = "<group>"; };
+		339DBF491D59E31200F7800E /* charging off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "charging off.png"; sourceTree = "<group>"; };
+		339DBF4A1D59E31200F7800E /* charging on button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "charging on button.png"; sourceTree = "<group>"; };
+		339DBF4B1D59E31200F7800E /* charging on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "charging on.png"; sourceTree = "<group>"; };
+		339F97BB1D5B939B00AAFBD7 /* HavellsSolar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HavellsSolar.entitlements; sourceTree = "<group>"; };
+		33A03A6B1D66EF2200F365E0 /* BLEDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDeviceTableViewCell.h; sourceTree = "<group>"; };
+		33A03A6C1D66EF2200F365E0 /* BLEDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDeviceTableViewCell.m; sourceTree = "<group>"; };
+		33A03A6D1D66EF2200F365E0 /* BLEDeviceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLEDeviceTableViewCell.xib; sourceTree = "<group>"; };
+		33A03A751D66F07300F365E0 /* newcharging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newcharging.png; sourceTree = "<group>"; };
+		33A03A761D66F07300F365E0 /* newdischarging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newdischarging.png; sourceTree = "<group>"; };
+		33A03A791D66F45F00F365E0 /* SearchLampTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchLampTableViewController.h; sourceTree = "<group>"; };
+		33A03A7A1D66F45F00F365E0 /* SearchLampTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchLampTableViewController.m; sourceTree = "<group>"; };
+		33B42AE81D608BA4008CA4A7 /* CHARGING.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHARGING.png; sourceTree = "<group>"; };
+		33B4AF541D5B028D0061BF43 /* solar power circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "solar power circle.png"; sourceTree = "<group>"; };
+		33B4AF561D5B0AED0061BF43 /* SolarPanelStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarPanelStatusViewController.h; sourceTree = "<group>"; };
+		33B4AF571D5B0AED0061BF43 /* SolarPanelStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolarPanelStatusViewController.m; sourceTree = "<group>"; };
+		33BF6CD71DA277CA00289AB6 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../Downloads/Charts-2.3.0/Charts.xcodeproj"; sourceTree = "<group>"; };
+		33D87A981D5B4EA500A110A3 /* BluetoothDiscovery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BluetoothDiscovery.h; path = ../BluetoothDiscovery.h; sourceTree = "<group>"; };
+		33D87A991D5B4EC800A110A3 /* BluetoothDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BluetoothDiscovery.m; path = ../BluetoothDiscovery.m; sourceTree = "<group>"; };
+		33DD13431D5EE99500B25ACD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		33DE065B1D5C63C500CE6E3B /* BatteryStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatteryStatusViewController.h; sourceTree = "<group>"; };
+		33DE065C1D5C63C500CE6E3B /* BatteryStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatteryStatusViewController.m; sourceTree = "<group>"; };
+		33E7E9B31D461BCF0036200A /* HavellsSolar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HavellsSolar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E7E9B71D461BCF0036200A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33E7E9B91D461BCF0036200A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33E7E9BA1D461BCF0036200A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33E7E9BC1D461BCF0036200A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33E7E9BD1D461BCF0036200A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33E7E9C01D461BCF0036200A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		33E7E9C31D461BCF0036200A /* HavellsSolar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HavellsSolar.xcdatamodel; sourceTree = "<group>"; };
+		33E7E9C51D461BCF0036200A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33E7E9C81D461BCF0036200A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33E7E9CA1D461BCF0036200A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E7E9CF1D461BCF0036200A /* HavellsSolarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavellsSolarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E7E9D31D461BCF0036200A /* HavellsSolarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HavellsSolarTests.m; sourceTree = "<group>"; };
+		33E7E9D51D461BCF0036200A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E7E9DA1D461BCF0036200A /* HavellsSolarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavellsSolarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E7E9DE1D461BCF0036200A /* HavellsSolarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HavellsSolarUITests.m; sourceTree = "<group>"; };
+		33E7E9E01D461BCF0036200A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33E7E9B01D461BCF0036200A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BF6CE91DA2890800289AB6 /* Charts.framework in Frameworks */,
+				333819EA1D6B34560023D88D /* CoreData.framework in Frameworks */,
+				333819EB1D6B34560023D88D /* CoreGraphics.framework in Frameworks */,
+				333819EC1D6B34560023D88D /* CoreLocation.framework in Frameworks */,
+				333819ED1D6B34560023D88D /* CoreText.framework in Frameworks */,
+				333819EE1D6B34560023D88D /* GLKit.framework in Frameworks */,
+				333819EF1D6B34560023D88D /* ImageIO.framework in Frameworks */,
+				333819F01D6B34560023D88D /* libc++.tbd in Frameworks */,
+				333819F11D6B34560023D88D /* libz.tbd in Frameworks */,
+				333819F21D6B34560023D88D /* OpenGLES.framework in Frameworks */,
+				333819F31D6B34560023D88D /* SystemConfiguration.framework in Frameworks */,
+				333819DF1D6B340A0023D88D /* Accelerate.framework in Frameworks */,
+				33DD13441D5EE99500B25ACD /* QuartzCore.framework in Frameworks */,
+				33236D371D5B43350055C673 /* UIKit.framework in Frameworks */,
+				333819D91D6B32870023D88D /* GoogleMapsCore.framework in Frameworks */,
+				333819DB1D6B329A0023D88D /* GoogleMapsBase.framework in Frameworks */,
+				33236D391D5B43440055C673 /* Foundation.framework in Frameworks */,
+				33BF6CEA1DA2893500289AB6 /* Charts.framework in Frameworks */,
+				333819D81D6B32870023D88D /* GoogleMaps.framework in Frameworks */,
+				33236D351D5B431D0055C673 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7E9CC1D461BCF0036200A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7E9D71D461BCF0036200A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33118DA71D5206E200638055 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				33DE065E1D5C7BC200CE6E3B /* ipad */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		333819F41D6B34ED0023D88D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				333819E01D6B34560023D88D /* CoreData.framework */,
+				333819E11D6B34560023D88D /* CoreGraphics.framework */,
+				333819E21D6B34560023D88D /* CoreLocation.framework */,
+				333819E31D6B34560023D88D /* CoreText.framework */,
+				333819E41D6B34560023D88D /* GLKit.framework */,
+				333819E51D6B34560023D88D /* ImageIO.framework */,
+				333819E61D6B34560023D88D /* libc++.tbd */,
+				333819E71D6B34560023D88D /* libz.tbd */,
+				333819E81D6B34560023D88D /* OpenGLES.framework */,
+				333819E91D6B34560023D88D /* SystemConfiguration.framework */,
+				333819DE1D6B340A0023D88D /* Accelerate.framework */,
+				333819DC1D6B32E20023D88D /* GoogleMaps.bundle */,
+				333819DA1D6B329A0023D88D /* GoogleMapsBase.framework */,
+				333819D61D6B32870023D88D /* GoogleMaps.framework */,
+				333819D71D6B32870023D88D /* GoogleMapsCore.framework */,
+				33DD13431D5EE99500B25ACD /* QuartzCore.framework */,
+				33236D381D5B43440055C673 /* Foundation.framework */,
+				33236D361D5B43350055C673 /* UIKit.framework */,
+				33236D341D5B431D0055C673 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33A03A701D66EF2B00F365E0 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				33A03A6B1D66EF2200F365E0 /* BLEDeviceTableViewCell.h */,
+				33A03A6C1D66EF2200F365E0 /* BLEDeviceTableViewCell.m */,
+				33A03A6D1D66EF2200F365E0 /* BLEDeviceTableViewCell.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		33BF6CD81DA277CA00289AB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33BF6CDF1DA277CA00289AB6 /* Charts.framework */,
+				33BF6CE11DA277CA00289AB6 /* ChartsTests.xctest */,
+				33BF6CE31DA277CA00289AB6 /* ChartsRealm.framework */,
+				33BF6CE51DA277CA00289AB6 /* ChartsRealmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33D87A971D5B4D2700A110A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33E7E9BC1D461BCF0036200A /* ViewController.h */,
+				33E7E9BD1D461BCF0036200A /* ViewController.m */,
+				33DE065B1D5C63C500CE6E3B /* BatteryStatusViewController.h */,
+				33DE065C1D5C63C500CE6E3B /* BatteryStatusViewController.m */,
+				33118D9A1D51E92900638055 /* DashboardViewController.h */,
+				33118D9B1D51E92900638055 /* DashboardViewController.m */,
+				332A83B61D58A27100465461 /* LampViewController.h */,
+				332A83B71D58A27100465461 /* LampViewController.m */,
+				33B4AF561D5B0AED0061BF43 /* SolarPanelStatusViewController.h */,
+				33B4AF571D5B0AED0061BF43 /* SolarPanelStatusViewController.m */,
+				33236D171D5B27170055C673 /* LampControlViewController.h */,
+				33236D181D5B27170055C673 /* LampControlViewController.m */,
+				339CAB101D5CB227001EFDD8 /* TimerViewController.h */,
+				339CAB111D5CB227001EFDD8 /* TimerViewController.m */,
+				330E53F41D65B1F300EB0F80 /* WattViewController.h */,
+				330E53F51D65B1F300EB0F80 /* WattViewController.m */,
+				33A03A791D66F45F00F365E0 /* SearchLampTableViewController.h */,
+				33A03A7A1D66F45F00F365E0 /* SearchLampTableViewController.m */,
+				333819F51D6B370C0023D88D /* LampLocationViewController.h */,
+				333819F61D6B370C0023D88D /* LampLocationViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		33DE065E1D5C7BC200CE6E3B /* ipad */ = {
+			isa = PBXGroup;
+			children = (
+				33A03A751D66F07300F365E0 /* newcharging.png */,
+				33A03A761D66F07300F365E0 /* newdischarging.png */,
+				33B42AE81D608BA4008CA4A7 /* CHARGING.png */,
+				339BB6581D5C89880013102C /* LAMPCONTROLTIMER.png */,
+				339BB6561D5C88850013102C /* BKGD.png */,
+				339BB6541D5C87EA0013102C /* blueline.png */,
+				339BB6521D5C87B50013102C /* whiteline.png */,
+				339BB64A1D5C84A30013102C /* hour circle.png */,
+				339BB64B1D5C84A30013102C /* timer status button.png */,
+				339BB64C1D5C84A30013102C /* timer.png */,
+				339BB6481D5C80F80013102C /* menu.png */,
+				33236D321D5B2EA10055C673 /* lamp_control_forword_arrow.png */,
+				33236D1A1D5B27EF0055C673 /* button small circle.png */,
+				33236D1B1D5B27EF0055C673 /* control box.png */,
+				33236D1C1D5B27EF0055C673 /* control button.png */,
+				33236D1D1D5B27EF0055C673 /* lamp geo.png */,
+				33236D1E1D5B27EF0055C673 /* lamp name.png */,
+				33236D1F1D5B27EF0055C673 /* lamp off button.png */,
+				33236D201D5B27EF0055C673 /* lamp on button 1.png */,
+				33236D211D5B27EF0055C673 /* lamp on button.png */,
+				33236D221D5B27EF0055C673 /* lamp on off.png */,
+				33236D231D5B27EF0055C673 /* luminaire power.png */,
+				33B4AF541D5B028D0061BF43 /* solar power circle.png */,
+				339DBF461D59E31200F7800E /* battery capacity.png */,
+				339DBF471D59E31200F7800E /* battery status.png */,
+				339DBF481D59E31200F7800E /* battery voltage.png */,
+				339DBF491D59E31200F7800E /* charging off.png */,
+				339DBF4A1D59E31200F7800E /* charging on button.png */,
+				339DBF4B1D59E31200F7800E /* charging on.png */,
+				332A83B91D58A60000465461 /* big circle.png */,
+				332A83BA1D58A60000465461 /* lamp.png */,
+				332A83BB1D58A60000465461 /* search circle.png */,
+				332A83BC1D58A60000465461 /* search icon.png */,
+				332A83B41D5898C700465461 /* refresh.png */,
+				33118D8A1D51E7CD00638055 /* get started.png */,
+				33118D8B1D51E7CD00638055 /* password.png */,
+				33118D8C1D51E7CD00638055 /* user name.png */,
+				33118D901D51E7EF00638055 /* login_background.png */,
+				33118D941D51E8A700638055 /* dashboard_background.png */,
+				33118D921D51E82300638055 /* splash.png */,
+				33118D981D51E8DC00638055 /* back_arrow.png */,
+				33118D9D1D51EC4900638055 /* menu.png */,
+				33118D9F1D51EEB500638055 /* battery_status.png */,
+				33118DA01D51EEB500638055 /* lamp_control.png */,
+				33118DA11D51EEB500638055 /* solar_panel_status.png */,
+				33118DA51D52041200638055 /* forward_arrow.png */,
+			);
+			name = ipad;
+			sourceTree = "<group>";
+		};
+		33E7E9AA1D461BCF0036200A = {
+			isa = PBXGroup;
+			children = (
+				33BF6CD71DA277CA00289AB6 /* Charts.xcodeproj */,
+				333819F41D6B34ED0023D88D /* Frameworks */,
+				33E7E9B51D461BCF0036200A /* HavellsSolar */,
+				33E7E9D21D461BCF0036200A /* HavellsSolarTests */,
+				33E7E9DD1D461BCF0036200A /* HavellsSolarUITests */,
+				33E7E9B41D461BCF0036200A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33E7E9B41D461BCF0036200A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33E7E9B31D461BCF0036200A /* HavellsSolar.app */,
+				33E7E9CF1D461BCF0036200A /* HavellsSolarTests.xctest */,
+				33E7E9DA1D461BCF0036200A /* HavellsSolarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33E7E9B51D461BCF0036200A /* HavellsSolar */ = {
+			isa = PBXGroup;
+			children = (
+				33A03A701D66EF2B00F365E0 /* Xib */,
+				339F97BB1D5B939B00AAFBD7 /* HavellsSolar.entitlements */,
+				33118DA71D5206E200638055 /* Assets */,
+				33E7E9B91D461BCF0036200A /* AppDelegate.h */,
+				33E7E9BA1D461BCF0036200A /* AppDelegate.m */,
+				33D87A971D5B4D2700A110A3 /* Controller */,
+				33E7E9BF1D461BCF0036200A /* iPhone.storyboard */,
+				33D87A981D5B4EA500A110A3 /* BluetoothDiscovery.h */,
+				33D87A991D5B4EC800A110A3 /* BluetoothDiscovery.m */,
+				33E7E9C51D461BCF0036200A /* Assets.xcassets */,
+				33E7E9C71D461BCF0036200A /* LaunchScreen.storyboard */,
+				33E7E9CA1D461BCF0036200A /* Info.plist */,
+				33E7E9C21D461BCF0036200A /* HavellsSolar.xcdatamodeld */,
+				33E7E9B61D461BCF0036200A /* Supporting Files */,
+				3372FDC51D47A492000E8313 /* iPad.storyboard */,
+				3334DE331D9D126700D95A5A /* SolarCommands.h */,
+				3334DE341D9D126700D95A5A /* SolarCommands.m */,
+			);
+			path = HavellsSolar;
+			sourceTree = "<group>";
+		};
+		33E7E9B61D461BCF0036200A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33E7E9B71D461BCF0036200A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33E7E9D21D461BCF0036200A /* HavellsSolarTests */ = {
+			isa = PBXGroup;
+			children = (
+				33E7E9D31D461BCF0036200A /* HavellsSolarTests.m */,
+				33E7E9D51D461BCF0036200A /* Info.plist */,
+			);
+			path = HavellsSolarTests;
+			sourceTree = "<group>";
+		};
+		33E7E9DD1D461BCF0036200A /* HavellsSolarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33E7E9DE1D461BCF0036200A /* HavellsSolarUITests.m */,
+				33E7E9E01D461BCF0036200A /* Info.plist */,
+			);
+			path = HavellsSolarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33E7E9B21D461BCF0036200A /* HavellsSolar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E7E9E31D461BCF0036200A /* Build configuration list for PBXNativeTarget "HavellsSolar" */;
+			buildPhases = (
+				33E7E9AF1D461BCF0036200A /* Sources */,
+				33E7E9B01D461BCF0036200A /* Frameworks */,
+				33E7E9B11D461BCF0036200A /* Resources */,
+				33F789581D6DB26B00791928 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33BF6CE71DA277F600289AB6 /* PBXTargetDependency */,
+				33BF6CED1DA2893500289AB6 /* PBXTargetDependency */,
+			);
+			name = HavellsSolar;
+			productName = HavellsSolar;
+			productReference = 33E7E9B31D461BCF0036200A /* HavellsSolar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33E7E9CE1D461BCF0036200A /* HavellsSolarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E7E9E61D461BCF0036200A /* Build configuration list for PBXNativeTarget "HavellsSolarTests" */;
+			buildPhases = (
+				33E7E9CB1D461BCF0036200A /* Sources */,
+				33E7E9CC1D461BCF0036200A /* Frameworks */,
+				33E7E9CD1D461BCF0036200A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E7E9D11D461BCF0036200A /* PBXTargetDependency */,
+			);
+			name = HavellsSolarTests;
+			productName = HavellsSolarTests;
+			productReference = 33E7E9CF1D461BCF0036200A /* HavellsSolarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33E7E9D91D461BCF0036200A /* HavellsSolarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E7E9E91D461BCF0036200A /* Build configuration list for PBXNativeTarget "HavellsSolarUITests" */;
+			buildPhases = (
+				33E7E9D61D461BCF0036200A /* Sources */,
+				33E7E9D71D461BCF0036200A /* Frameworks */,
+				33E7E9D81D461BCF0036200A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E7E9DC1D461BCF0036200A /* PBXTargetDependency */,
+			);
+			name = HavellsSolarUITests;
+			productName = HavellsSolarUITests;
+			productReference = 33E7E9DA1D461BCF0036200A /* HavellsSolarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33E7E9AB1D461BCF0036200A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sivakumar  K R";
+				TargetAttributes = {
+					33E7E9B21D461BCF0036200A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MH359V5RZ5;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					33E7E9CE1D461BCF0036200A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 33E7E9B21D461BCF0036200A;
+					};
+					33E7E9D91D461BCF0036200A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 33E7E9B21D461BCF0036200A;
+					};
+				};
+			};
+			buildConfigurationList = 33E7E9AE1D461BCF0036200A /* Build configuration list for PBXProject "HavellsSolar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33E7E9AA1D461BCF0036200A;
+			productRefGroup = 33E7E9B41D461BCF0036200A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 33BF6CD81DA277CA00289AB6 /* Products */;
+					ProjectRef = 33BF6CD71DA277CA00289AB6 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				33E7E9B21D461BCF0036200A /* HavellsSolar */,
+				33E7E9CE1D461BCF0036200A /* HavellsSolarTests */,
+				33E7E9D91D461BCF0036200A /* HavellsSolarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		33BF6CDF1DA277CA00289AB6 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 33BF6CDE1DA277CA00289AB6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		33BF6CE11DA277CA00289AB6 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 33BF6CE01DA277CA00289AB6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		33BF6CE31DA277CA00289AB6 /* ChartsRealm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ChartsRealm.framework;
+			remoteRef = 33BF6CE21DA277CA00289AB6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		33BF6CE51DA277CA00289AB6 /* ChartsRealmTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsRealmTests.xctest;
+			remoteRef = 33BF6CE41DA277CA00289AB6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33E7E9B11D461BCF0036200A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A03A781D66F07300F365E0 /* newdischarging.png in Resources */,
+				33236D2B1D5B27EF0055C673 /* lamp on button 1.png in Resources */,
+				33236D2E1D5B27EF0055C673 /* luminaire power.png in Resources */,
+				339BB64E1D5C84A30013102C /* timer status button.png in Resources */,
+				339BB6571D5C88850013102C /* BKGD.png in Resources */,
+				33118D8F1D51E7CD00638055 /* user name.png in Resources */,
+				33A03A6F1D66EF2200F365E0 /* BLEDeviceTableViewCell.xib in Resources */,
+				332A83BE1D58A60000465461 /* lamp.png in Resources */,
+				33118D8E1D51E7CD00638055 /* password.png in Resources */,
+				339BB64D1D5C84A30013102C /* hour circle.png in Resources */,
+				33E7E9C91D461BCF0036200A /* LaunchScreen.storyboard in Resources */,
+				33236D291D5B27EF0055C673 /* lamp name.png in Resources */,
+				339DBF4D1D59E31200F7800E /* battery capacity.png in Resources */,
+				33118DA21D51EEB500638055 /* battery_status.png in Resources */,
+				339BB6591D5C89880013102C /* LAMPCONTROLTIMER.png in Resources */,
+				33118D9E1D51EC4900638055 /* menu.png in Resources */,
+				3372FDC61D47A492000E8313 /* iPad.storyboard in Resources */,
+				33118D991D51E8DC00638055 /* back_arrow.png in Resources */,
+				332A83B51D5898C700465461 /* refresh.png in Resources */,
+				333819DD1D6B32E20023D88D /* GoogleMaps.bundle in Resources */,
+				33118DA61D52041200638055 /* forward_arrow.png in Resources */,
+				33236D281D5B27EF0055C673 /* lamp geo.png in Resources */,
+				33B42AE91D608BA4008CA4A7 /* CHARGING.png in Resources */,
+				33236D261D5B27EF0055C673 /* control box.png in Resources */,
+				332A83BD1D58A60000465461 /* big circle.png in Resources */,
+				332A83C01D58A60000465461 /* search icon.png in Resources */,
+				33236D251D5B27EF0055C673 /* button small circle.png in Resources */,
+				33118D931D51E82300638055 /* splash.png in Resources */,
+				339BB6491D5C80F80013102C /* menu.png in Resources */,
+				339DBF511D59E31200F7800E /* charging on button.png in Resources */,
+				332A83BF1D58A60000465461 /* search circle.png in Resources */,
+				33118D911D51E7EF00638055 /* login_background.png in Resources */,
+				33118D8D1D51E7CD00638055 /* get started.png in Resources */,
+				33118D951D51E8A700638055 /* dashboard_background.png in Resources */,
+				339BB6551D5C87EA0013102C /* blueline.png in Resources */,
+				339BB64F1D5C84A30013102C /* timer.png in Resources */,
+				33236D2D1D5B27EF0055C673 /* lamp on off.png in Resources */,
+				33236D2C1D5B27EF0055C673 /* lamp on button.png in Resources */,
+				33236D271D5B27EF0055C673 /* control button.png in Resources */,
+				339DBF501D59E31200F7800E /* charging off.png in Resources */,
+				33118DA41D51EEB500638055 /* solar_panel_status.png in Resources */,
+				33A03A771D66F07300F365E0 /* newcharging.png in Resources */,
+				33236D331D5B2EA10055C673 /* lamp_control_forword_arrow.png in Resources */,
+				339DBF521D59E31200F7800E /* charging on.png in Resources */,
+				339DBF4E1D59E31200F7800E /* battery status.png in Resources */,
+				339BB6531D5C87B50013102C /* whiteline.png in Resources */,
+				33B4AF551D5B028D0061BF43 /* solar power circle.png in Resources */,
+				33236D2A1D5B27EF0055C673 /* lamp off button.png in Resources */,
+				33118DA31D51EEB500638055 /* lamp_control.png in Resources */,
+				33E7E9C61D461BCF0036200A /* Assets.xcassets in Resources */,
+				33E7E9C11D461BCF0036200A /* iPhone.storyboard in Resources */,
+				339DBF4F1D59E31200F7800E /* battery voltage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7E9CD1D461BCF0036200A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7E9D81D461BCF0036200A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33E7E9AF1D461BCF0036200A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339CAB121D5CB227001EFDD8 /* TimerViewController.m in Sources */,
+				332A83B81D58A27100465461 /* LampViewController.m in Sources */,
+				33A03A6E1D66EF2200F365E0 /* BLEDeviceTableViewCell.m in Sources */,
+				33A03A7B1D66F45F00F365E0 /* SearchLampTableViewController.m in Sources */,
+				33118D9C1D51E92900638055 /* DashboardViewController.m in Sources */,
+				33E7E9BE1D461BCF0036200A /* ViewController.m in Sources */,
+				33DE065D1D5C63C500CE6E3B /* BatteryStatusViewController.m in Sources */,
+				33E7E9C41D461BCF0036200A /* HavellsSolar.xcdatamodeld in Sources */,
+				33E7E9BB1D461BCF0036200A /* AppDelegate.m in Sources */,
+				33B4AF581D5B0AED0061BF43 /* SolarPanelStatusViewController.m in Sources */,
+				33E7E9B81D461BCF0036200A /* main.m in Sources */,
+				333819F71D6B370C0023D88D /* LampLocationViewController.m in Sources */,
+				33236D191D5B27170055C673 /* LampControlViewController.m in Sources */,
+				3334DE351D9D126700D95A5A /* SolarCommands.m in Sources */,
+				330E53F61D65B1F300EB0F80 /* WattViewController.m in Sources */,
+				33D87A9A1D5B4EC800A110A3 /* BluetoothDiscovery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7E9CB1D461BCF0036200A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E7E9D41D461BCF0036200A /* HavellsSolarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7E9D61D461BCF0036200A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E7E9DF1D461BCF0036200A /* HavellsSolarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33BF6CE71DA277F600289AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 33BF6CE61DA277F600289AB6 /* PBXContainerItemProxy */;
+		};
+		33BF6CED1DA2893500289AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 33BF6CEC1DA2893500289AB6 /* PBXContainerItemProxy */;
+		};
+		33E7E9D11D461BCF0036200A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E7E9B21D461BCF0036200A /* HavellsSolar */;
+			targetProxy = 33E7E9D01D461BCF0036200A /* PBXContainerItemProxy */;
+		};
+		33E7E9DC1D461BCF0036200A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E7E9B21D461BCF0036200A /* HavellsSolar */;
+			targetProxy = 33E7E9DB1D461BCF0036200A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33E7E9BF1D461BCF0036200A /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E7E9C01D461BCF0036200A /* Base */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		33E7E9C71D461BCF0036200A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E7E9C81D461BCF0036200A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33E7E9E11D461BCF0036200A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33E7E9E21D461BCF0036200A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33E7E9E41D461BCF0036200A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HavellsSolar/HavellsSolar.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MH359V5RZ5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HavellsSolar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipmonk.HavellsSolar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33E7E9E51D461BCF0036200A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HavellsSolar/HavellsSolar.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MH359V5RZ5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HavellsSolar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipmonk.HavellsSolar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33E7E9E71D461BCF0036200A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HavellsSolarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipmonk.HavellsSolarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HavellsSolar.app/HavellsSolar";
+			};
+			name = Debug;
+		};
+		33E7E9E81D461BCF0036200A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HavellsSolarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipmonk.HavellsSolarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HavellsSolar.app/HavellsSolar";
+			};
+			name = Release;
+		};
+		33E7E9EA1D461BCF0036200A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HavellsSolarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipmonk.HavellsSolarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HavellsSolar;
+			};
+			name = Debug;
+		};
+		33E7E9EB1D461BCF0036200A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HavellsSolarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipmonk.HavellsSolarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HavellsSolar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33E7E9AE1D461BCF0036200A /* Build configuration list for PBXProject "HavellsSolar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7E9E11D461BCF0036200A /* Debug */,
+				33E7E9E21D461BCF0036200A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E7E9E31D461BCF0036200A /* Build configuration list for PBXNativeTarget "HavellsSolar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7E9E41D461BCF0036200A /* Debug */,
+				33E7E9E51D461BCF0036200A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E7E9E61D461BCF0036200A /* Build configuration list for PBXNativeTarget "HavellsSolarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7E9E71D461BCF0036200A /* Debug */,
+				33E7E9E81D461BCF0036200A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E7E9E91D461BCF0036200A /* Build configuration list for PBXNativeTarget "HavellsSolarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7E9EA1D461BCF0036200A /* Debug */,
+				33E7E9EB1D461BCF0036200A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33E7E9C21D461BCF0036200A /* HavellsSolar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33E7E9C31D461BCF0036200A /* HavellsSolar.xcdatamodel */,
+			);
+			currentVersion = 33E7E9C31D461BCF0036200A /* HavellsSolar.xcdatamodel */;
+			path = HavellsSolar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33E7E9AB1D461BCF0036200A /* Project object */;
+}
